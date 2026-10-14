@@ -261,16 +261,6 @@ print(hex(binascii.crc_hqx(d[:-2], 0)), d[-2:].hex())   # 0x63cc  '63cc'
 #    再对每张图算 SHA-256 做跨机比对
 ```
 
-## 相关链接
-
-- 上篇 · D300 固件解析（明文）：[https://github.com/Pinksert/D300-firmware-analysis](https://github.com/Pinksert/D300-firmware-analysis)
-- 下篇 · D300S 固件解析（加密）：[https://github.com/Pinksert/D300S-firmware-analysis](https://github.com/Pinksert/D300S-firmware-analysis)
-- 番外 · D300 电磁光圈指令级比对：[https://github.com/Pinksert/D300-electromagnetic-aperture-analysis](https://github.com/Pinksert/D300-electromagnetic-aperture-analysis)
-- B 站专栏系列：
-  - D300 上篇：[https://www.bilibili.com/opus/1257497777850548249](https://www.bilibili.com/opus/1257497777850548249)
-  - D300S 下篇：[https://www.bilibili.com/opus/1257549137054793745](https://www.bilibili.com/opus/1257549137054793745)
-  - D90 篇：（B 站专栏待发布，发布后补链）
-
 ## 免责声明
 
 本仓库内容仅供学习与研究使用。固件与说明书版权归尼康（Nikon）及相关第三方（Fujitsu、NEC、FotoNation）所有，请勿用于任何商业或侵权行为。下载即表示你同意仅将资料用于个人学习与研究。修改并重新打包刷入机身存在变砖风险，且可能使保修失效，本仓库内容请勿用于分发修改后的固件。
